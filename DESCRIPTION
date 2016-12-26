@@ -1,0 +1,19 @@
+Package: rmm
+Version: 0.5-1
+Date: 2016-12-26
+Title: My First Collection of Functions
+Authors@R: c(person("Mike", "Morris", role = c("aut", "cre"),
+                     email = "mikemorris89@github.com"))
+Author: Mike Morris [aut, cre]
+Maintainer: Mike Morris <mikemorris89@github.com>
+Depends:
+    R (>= 3.1.0)
+Suggests:
+    dplyr
+Description: Various funcitons that make my life easier until I find a better
+    way of doing something. Mostly basic funcitons that help scrub and review data
+    in dataframes. My sources are generally excel files and sometimes i will pull
+    from databases structures.
+License: GPL (>= 2)
+URL: https://github.com/MikeMorris89/rmm
+RoxygenNote: 5.0.1
