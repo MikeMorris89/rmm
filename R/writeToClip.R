@@ -32,13 +32,10 @@ writeclipl <- function(x, ...) {
 #' @param x object to put in clip
 #' @param ... write table parameters
 #' @export
-writeclipw <- function() {
+writeclipw <- function(x,...) {
   return("not yet sorry...")
 }
 
-writeclipm <- function() {
-  return("not yet sorry...")
-}
 
 #' writeclipm
 #'
@@ -47,7 +44,7 @@ writeclipm <- function() {
 #' @param x object to put in clip
 #' @param ... write table parameters
 #' @export
-writeclipm <- function() {
+writeclipm <- function(x,...) {
 return("not yet sorry...")
 }
 

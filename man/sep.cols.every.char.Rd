@@ -7,11 +7,11 @@
 sep.cols.every.char(sc.data, x, maxchar)
 }
 \arguments{
+\item{sc.data}{dataframe.}
+
 \item{x}{column name in my.data to separate.}
 
 \item{maxchar}{the maximum columns to split x into.}
-
-\item{my.data}{dataframe.}
 }
 \value{
 return a dataframe with x split by ever char

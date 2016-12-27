@@ -1,8 +1,7 @@
-
 #' sep.cols.every.char
 #'
 #' Separate column in to one column for every character.
-#' @param my.data dataframe.
+#' @param sc.data dataframe.
 #' @param x column name in my.data to separate.
 #' @param maxchar the maximum columns to split x into.
 #' @return return a dataframe with x split by ever char

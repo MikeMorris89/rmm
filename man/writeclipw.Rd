@@ -5,7 +5,7 @@
 \alias{writeclipw}
 \title{writeclipl}
 \usage{
-writeclipw()
+writeclipw(x, ...)
 }
 \arguments{
 \item{x}{object to put in clip}
