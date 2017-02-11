@@ -7,9 +7,9 @@ Authors@R: c(person("Mike", "Morris", role = c("aut", "cre"),
 Author: Mike Morris [aut, cre]
 Maintainer: Mike Morris <mikemorris89@github.com>
 Depends:
-    R (>= 3.1.0)
+    R (>= 3.1.0), tidyr
 Suggests:
-    dplyr
+    dplyr, tidyr
 Description: Various funcitons that make my life easier until I find a better
     way of doing something. Mostly basic funcitons that help scrub and review data
     in dataframes. My sources are generally excel files and sometimes i will pull

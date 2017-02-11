@@ -7,6 +7,6 @@
 #' @export
 sep.cols<-function(my.data,x){
   my.data$tmpcol<-my.data[,x]
-  return(separate(my.data,tmpcol, into = paste(x, 1:max(countSpaces(my.data[,x])), sep = ""), extra = "merge", fill = "right", remove = TRUE)
+  return(tidyr::separate(my.data,tmpcol, into = paste(x, 1:max(countSpaces(my.data[,x])), sep = ""), extra = "merge", fill = "right", remove = TRUE)
   )
 }
